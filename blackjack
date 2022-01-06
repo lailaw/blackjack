@@ -12,13 +12,13 @@ else if (card == 10 || card=="J" || card=="K" || card=="Q" || card=="A") {
 count--;
 }
 else if (card == 7 || card== 8 || card== 9) {
-return count+0;
+count+0;
 }
  
  if (count<=0){
- return "'count' Hold"; }
+ return count "Hold"; }
  else if (count>0){
- return "'count' Bet"; }
+ return count "Bet"; }
 
   return "Change Me";
   // Only change code above this line
