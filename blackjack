@@ -5,7 +5,17 @@ let count = 0;
 
 function cc(card) {
   // Only change code below this line
-
+if (card >= 2 && card <= 6) {
+return count++;
+}
+else if (card == 10 || card=="J" || card=="K" || card=="Q" || card=="A") {
+return count--;
+}
+ 
+ if (count<=0){
+ return "Hold"; }
+ else if (count>0){
+ return "Bet"; }
 
   return "Change Me";
   // Only change code above this line
