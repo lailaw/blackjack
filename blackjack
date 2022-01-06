@@ -16,9 +16,9 @@ count+0;
 }
  
  if (count<=0){
- return count "Hold"; }
+ return count + "Hold"; }
  else if (count>0){
- return count "Bet"; }
+ return count + "Bet"; }
 
   return "Change Me";
   // Only change code above this line
